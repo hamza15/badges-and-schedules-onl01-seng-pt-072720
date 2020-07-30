@@ -21,6 +21,6 @@ def assign_rooms(names)
 end
 
 def printer(names)
-  batch_badge_creator(names).list1.each{ |name| puts "#{name}"} 
-  assign_rooms(names).list2.each{ |name| puts "#{name}"} 
+  batch_badge_creator(names).each{ |name| puts "#{name}"} 
+  assign_rooms(names).each{ |name| puts "#{name}"} 
 end
