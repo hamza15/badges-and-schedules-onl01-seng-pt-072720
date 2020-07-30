@@ -21,6 +21,6 @@ def assign_rooms(names)
 end
 
 def printer
-  puts #batch_badge_creator
+  batch_badge_creator.list2.each{ |name| puts "#{name}"} 
   puts #assign_rooms
 end
